@@ -38,9 +38,10 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Tw Cen MT Condensed", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(125, 224);
+            label1.Location = new Point(100, 179);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(148, 28);
+            label1.Size = new Size(120, 23);
             label1.TabIndex = 0;
             label1.Text = "Select your Role";
             label1.Click += label1_Click;
@@ -48,10 +49,11 @@
             // button1
             // 
             button1.Anchor = AnchorStyles.None;
-            button1.BackColor = Color.Transparent;
-            button1.Location = new Point(93, 350);
+            button1.BackColor = Color.Azure;
+            button1.Location = new Point(74, 280);
+            button1.Margin = new Padding(2, 2, 2, 2);
             button1.Name = "button1";
-            button1.Size = new Size(170, 52);
+            button1.Size = new Size(136, 42);
             button1.TabIndex = 1;
             button1.Text = "Faculty Member";
             button1.UseVisualStyleBackColor = false;
@@ -59,24 +61,24 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.FromArgb(255, 145, 77);
-            button2.Location = new Point(93, 435);
+            button2.BackColor = Color.Azure;
+            button2.Location = new Point(74, 348);
+            button2.Margin = new Padding(2, 2, 2, 2);
             button2.Name = "button2";
-            button2.Size = new Size(165, 50);
+            button2.Size = new Size(132, 40);
             button2.TabIndex = 2;
             button2.Text = "Student";
             button2.UseVisualStyleBackColor = false;
             // 
             // rolepage
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.event_attendance_1;
-            ClientSize = new Size(458, 798);
+            ClientSize = new Size(366, 638);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
-            Margin = new Padding(4);
             Name = "rolepage";
             Text = "Rolepage";
             ResumeLayout(false);

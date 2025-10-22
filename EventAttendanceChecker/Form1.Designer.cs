@@ -133,12 +133,13 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Sitka Banner Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(144, 172);
+            label3.Location = new Point(128, 172);
             label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
             label3.Size = new Size(104, 43);
             label3.TabIndex = 6;
             label3.Text = "Sign In";
+            label3.Click += label3_Click;
             // 
             // pictureBox2
             // 
