@@ -50,7 +50,7 @@
             // 
             button1.Anchor = AnchorStyles.None;
             button1.BackColor = Color.Azure;
-            button1.Location = new Point(74, 280);
+            button1.Location = new Point(74, 425);
             button1.Margin = new Padding(2, 2, 2, 2);
             button1.Name = "button1";
             button1.Size = new Size(136, 42);
@@ -75,7 +75,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.event_attendance_1;
-            ClientSize = new Size(366, 638);
+            ClientSize = new Size(462, 807);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
