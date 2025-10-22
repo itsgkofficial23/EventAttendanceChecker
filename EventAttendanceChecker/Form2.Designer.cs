@@ -1,6 +1,6 @@
 ﻿namespace EventAttendanceChecker
 {
-    partial class Form2
+    partial class rolepage
     {
         /// <summary>
         /// Required designer variable.
@@ -28,31 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
             SuspendLayout();
             // 
-            // button1
-            // 
-            button1.Location = new Point(200, 123);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // Form2
+            // rolepage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(503, 450);
-            Controls.Add(button1);
-            Name = "Form2";
-            Text = "Form2";
+            BackgroundImage = Properties.Resources.event_attendance_1;
+            ClientSize = new Size(366, 638);
+            Name = "rolepage";
+            Text = "Rolepage";
             ResumeLayout(false);
         }
 
         #endregion
-
-        private Button button1;
     }
 }

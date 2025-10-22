@@ -48,9 +48,10 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Sitka Heading", 11F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.Location = new Point(48, 315);
+            label1.Location = new Point(38, 252);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(112, 32);
+            label1.Size = new Size(97, 28);
             label1.TabIndex = 0;
             label1.Text = "Username:";
             label1.Click += label1_Click;
@@ -61,9 +62,10 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Sitka Heading", 11F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label2.Location = new Point(51, 390);
+            label2.Location = new Point(41, 312);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(109, 32);
+            label2.Size = new Size(94, 28);
             label2.TabIndex = 1;
             label2.Text = "Password:";
             label2.Click += label2_Click;
@@ -73,9 +75,10 @@
             linkLabel1.Anchor = AnchorStyles.None;
             linkLabel1.AutoSize = true;
             linkLabel1.BackColor = Color.Transparent;
-            linkLabel1.Location = new Point(190, 720);
+            linkLabel1.Location = new Point(152, 576);
+            linkLabel1.Margin = new Padding(2, 0, 2, 0);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(89, 25);
+            linkLabel1.Size = new Size(72, 20);
             linkLabel1.TabIndex = 2;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "EAC 2025";
@@ -86,10 +89,11 @@
             // 
             textBox1.Anchor = AnchorStyles.None;
             textBox1.BackColor = Color.FromArgb(255, 145, 77);
-            textBox1.Location = new Point(180, 317);
+            textBox1.Location = new Point(144, 254);
+            textBox1.Margin = new Padding(2, 2, 2, 2);
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "@asiatech.edu.ph";
-            textBox1.Size = new Size(201, 31);
+            textBox1.Size = new Size(162, 27);
             textBox1.TabIndex = 3;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
@@ -97,11 +101,12 @@
             // 
             textBox2.Anchor = AnchorStyles.None;
             textBox2.BackColor = Color.FromArgb(255, 145, 77);
-            textBox2.Location = new Point(180, 390);
+            textBox2.Location = new Point(144, 312);
+            textBox2.Margin = new Padding(2, 2, 2, 2);
             textBox2.Name = "textBox2";
             textBox2.PasswordChar = '*';
             textBox2.PlaceholderText = "password";
-            textBox2.Size = new Size(201, 31);
+            textBox2.Size = new Size(162, 27);
             textBox2.TabIndex = 4;
             textBox2.Tag = "";
             textBox2.TextChanged += textBox2_TextChanged;
@@ -113,9 +118,10 @@
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(125, 12);
+            pictureBox1.Location = new Point(100, 10);
+            pictureBox1.Margin = new Padding(2, 2, 2, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(200, 200);
+            pictureBox1.Size = new Size(160, 160);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
@@ -127,9 +133,10 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Sitka Banner Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(180, 215);
+            label3.Location = new Point(144, 172);
+            label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(123, 52);
+            label3.Size = new Size(104, 43);
             label3.TabIndex = 6;
             label3.Text = "Sign In";
             // 
@@ -141,7 +148,8 @@
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox2.ErrorImage = null;
             pictureBox2.InitialImage = (Image)resources.GetObject("pictureBox2.InitialImage");
-            pictureBox2.Location = new Point(125, 558);
+            pictureBox2.Location = new Point(100, 446);
+            pictureBox2.Margin = new Padding(2, 2, 2, 2);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(200, 200);
             pictureBox2.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -152,9 +160,10 @@
             // 
             button1.Anchor = AnchorStyles.None;
             button1.BackColor = Color.FromArgb(255, 145, 77);
-            button1.Location = new Point(190, 478);
+            button1.Location = new Point(152, 382);
+            button1.Margin = new Padding(2, 2, 2, 2);
             button1.Name = "button1";
-            button1.Size = new Size(112, 34);
+            button1.Size = new Size(90, 27);
             button1.TabIndex = 8;
             button1.Text = "Login";
             button1.UseVisualStyleBackColor = false;
@@ -162,11 +171,11 @@
             // 
             // LoginForm
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(458, 798);
+            ClientSize = new Size(366, 638);
             Controls.Add(button1);
             Controls.Add(linkLabel1);
             Controls.Add(label3);
@@ -176,6 +185,7 @@
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "LoginForm";
             Text = "EventAttendanceCheckerLogin";
             Load += Form1_Load;
