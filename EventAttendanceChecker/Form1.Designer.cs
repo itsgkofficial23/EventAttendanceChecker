@@ -48,7 +48,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Sitka Heading", 11F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.Location = new Point(38, 252);
+            label1.Location = new Point(-3, 252);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
             label1.Size = new Size(97, 28);
@@ -62,7 +62,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Sitka Heading", 11F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label2.Location = new Point(41, 312);
+            label2.Location = new Point(0, 312);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
             label2.Size = new Size(94, 28);
@@ -88,9 +88,9 @@
             // textBox1
             // 
             textBox1.Anchor = AnchorStyles.None;
-            textBox1.BackColor = Color.FromArgb(255, 145, 77);
-            textBox1.Location = new Point(144, 254);
-            textBox1.Margin = new Padding(2, 2, 2, 2);
+            textBox1.BackColor = Color.Azure;
+            textBox1.Location = new Point(103, 254);
+            textBox1.Margin = new Padding(2);
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "@asiatech.edu.ph";
             textBox1.Size = new Size(162, 27);
@@ -100,9 +100,9 @@
             // textBox2
             // 
             textBox2.Anchor = AnchorStyles.None;
-            textBox2.BackColor = Color.FromArgb(255, 145, 77);
-            textBox2.Location = new Point(144, 312);
-            textBox2.Margin = new Padding(2, 2, 2, 2);
+            textBox2.BackColor = Color.Azure;
+            textBox2.Location = new Point(103, 312);
+            textBox2.Margin = new Padding(2);
             textBox2.Name = "textBox2";
             textBox2.PasswordChar = '*';
             textBox2.PlaceholderText = "password";
@@ -119,7 +119,7 @@
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(100, 10);
-            pictureBox1.Margin = new Padding(2, 2, 2, 2);
+            pictureBox1.Margin = new Padding(2);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(160, 160);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -149,7 +149,7 @@
             pictureBox2.ErrorImage = null;
             pictureBox2.InitialImage = (Image)resources.GetObject("pictureBox2.InitialImage");
             pictureBox2.Location = new Point(100, 446);
-            pictureBox2.Margin = new Padding(2, 2, 2, 2);
+            pictureBox2.Margin = new Padding(2);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(200, 200);
             pictureBox2.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -159,9 +159,9 @@
             // button1
             // 
             button1.Anchor = AnchorStyles.None;
-            button1.BackColor = Color.FromArgb(255, 145, 77);
-            button1.Location = new Point(152, 382);
-            button1.Margin = new Padding(2, 2, 2, 2);
+            button1.BackColor = Color.Azure;
+            button1.Location = new Point(132, 382);
+            button1.Margin = new Padding(2);
             button1.Name = "button1";
             button1.Size = new Size(90, 27);
             button1.TabIndex = 8;
@@ -185,7 +185,7 @@
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "LoginForm";
             Text = "EventAttendanceCheckerLogin";
             Load += Form1_Load;
