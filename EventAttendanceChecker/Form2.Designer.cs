@@ -51,7 +51,7 @@
             button1.Anchor = AnchorStyles.None;
             button1.BackColor = Color.Azure;
             button1.Location = new Point(74, 425);
-            button1.Margin = new Padding(2, 2, 2, 2);
+            button1.Margin = new Padding(2);
             button1.Name = "button1";
             button1.Size = new Size(136, 42);
             button1.TabIndex = 1;
@@ -62,8 +62,8 @@
             // button2
             // 
             button2.BackColor = Color.Azure;
-            button2.Location = new Point(74, 348);
-            button2.Margin = new Padding(2, 2, 2, 2);
+            button2.Location = new Point(150, 349);
+            button2.Margin = new Padding(2);
             button2.Name = "button2";
             button2.Size = new Size(132, 40);
             button2.TabIndex = 2;

@@ -133,7 +133,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Sitka Banner Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(176, 256);
+            label3.Location = new Point(184, 256);
             label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
             label3.Size = new Size(104, 43);
