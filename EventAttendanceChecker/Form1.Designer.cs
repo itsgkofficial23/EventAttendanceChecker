@@ -176,7 +176,8 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImage = Properties.Resources.event_attendance_1;
+            BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(462, 807);
             Controls.Add(button1);
             Controls.Add(linkLabel1);
@@ -189,7 +190,7 @@
             Controls.Add(label1);
             Margin = new Padding(2);
             Name = "LoginForm";
-            Text = "EventAttendanceCheckerLogin";
+            Text = "Login";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
