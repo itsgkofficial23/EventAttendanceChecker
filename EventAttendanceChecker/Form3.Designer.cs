@@ -1,6 +1,6 @@
 ﻿namespace EventAttendanceChecker
 {
-    partial class Form3
+    partial class SignUpForm
     {
         /// <summary>
         /// Required designer variable.
@@ -36,7 +36,7 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(194, 124);
+            checkBox1.Location = new Point(63, 239);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(101, 24);
             checkBox1.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(90, 86);
+            button1.Location = new Point(222, 139);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 1;
@@ -55,13 +55,13 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(134, 267);
+            label1.Location = new Point(180, 363);
             label1.Name = "label1";
             label1.Size = new Size(50, 20);
             label1.TabIndex = 2;
             label1.Text = "label1";
             // 
-            // Form3
+            // SignUpForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -69,8 +69,8 @@
             Controls.Add(label1);
             Controls.Add(button1);
             Controls.Add(checkBox1);
-            Name = "Form3";
-            Text = "Form3";
+            Name = "SignUpForm";
+            Text = "SignUp";
             ResumeLayout(false);
             PerformLayout();
         }

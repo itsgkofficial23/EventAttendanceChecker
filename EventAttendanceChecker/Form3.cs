@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EventAttendanceChecker
 {
-    public partial class Form3 : Form
+    public partial class SignUpForm : Form
     {
-        public Form3()
+        public SignUpForm()
         {
             InitializeComponent();
         }
