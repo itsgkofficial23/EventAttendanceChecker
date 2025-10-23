@@ -48,7 +48,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Sitka Heading", 11F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.Location = new Point(45, 336);
+            label1.Location = new Point(40, 336);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
             label1.Size = new Size(97, 28);
@@ -62,7 +62,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Sitka Heading", 11F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label2.Location = new Point(48, 396);
+            label2.Location = new Point(43, 396);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
             label2.Size = new Size(94, 28);
@@ -75,7 +75,7 @@
             linkLabel1.Anchor = AnchorStyles.None;
             linkLabel1.AutoSize = true;
             linkLabel1.BackColor = Color.Transparent;
-            linkLabel1.Location = new Point(200, 660);
+            linkLabel1.Location = new Point(190, 705);
             linkLabel1.Margin = new Padding(2, 0, 2, 0);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(72, 20);
@@ -89,7 +89,7 @@
             // 
             textBox1.Anchor = AnchorStyles.None;
             textBox1.BackColor = Color.Azure;
-            textBox1.Location = new Point(151, 338);
+            textBox1.Location = new Point(146, 338);
             textBox1.Margin = new Padding(2);
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "@asiatech.edu.ph";
@@ -101,7 +101,7 @@
             // 
             textBox2.Anchor = AnchorStyles.None;
             textBox2.BackColor = Color.Azure;
-            textBox2.Location = new Point(151, 396);
+            textBox2.Location = new Point(146, 396);
             textBox2.Margin = new Padding(2);
             textBox2.Name = "textBox2";
             textBox2.PasswordChar = '*';
@@ -133,7 +133,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Sitka Banner Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(184, 256);
+            label3.Location = new Point(171, 256);
             label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
             label3.Size = new Size(104, 43);
@@ -149,19 +149,20 @@
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox2.ErrorImage = null;
             pictureBox2.InitialImage = (Image)resources.GetObject("pictureBox2.InitialImage");
-            pictureBox2.Location = new Point(148, 530);
+            pictureBox2.Location = new Point(138, 530);
             pictureBox2.Margin = new Padding(2);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(200, 200);
             pictureBox2.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox2.TabIndex = 7;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // button1
             // 
             button1.Anchor = AnchorStyles.None;
             button1.BackColor = Color.Azure;
-            button1.Location = new Point(180, 466);
+            button1.Location = new Point(177, 466);
             button1.Margin = new Padding(2);
             button1.Name = "button1";
             button1.Size = new Size(90, 27);

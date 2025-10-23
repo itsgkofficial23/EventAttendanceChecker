@@ -1,6 +1,6 @@
-﻿& namespace EventAttendanceChecker
+﻿namespace EventAttendanceChecker
 {
-    partial class rolepage
+    partial class Rolepage
     {
         /// <summary>
         /// Required designer variable.
@@ -37,20 +37,20 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Tw Cen MT Condensed", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(100, 179);
+            label1.Font = new Font("Tw Cen MT Condensed", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(79, 214);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(120, 23);
+            label1.Size = new Size(311, 26);
             label1.TabIndex = 0;
-            label1.Text = "Select your Role";
+            label1.Text = "\"Please Select your Role to continue.\"";
             label1.Click += label1_Click;
             // 
             // button1
             // 
             button1.Anchor = AnchorStyles.None;
             button1.BackColor = Color.Azure;
-            button1.Location = new Point(74, 425);
+            button1.Location = new Point(155, 362);
             button1.Margin = new Padding(2);
             button1.Name = "button1";
             button1.Size = new Size(136, 42);
@@ -62,7 +62,7 @@
             // button2
             // 
             button2.BackColor = Color.Azure;
-            button2.Location = new Point(150, 349);
+            button2.Location = new Point(155, 458);
             button2.Margin = new Padding(2);
             button2.Name = "button2";
             button2.Size = new Size(132, 40);
@@ -70,7 +70,7 @@
             button2.Text = "Student";
             button2.UseVisualStyleBackColor = false;
             // 
-            // rolepage
+            // Rolepage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -79,8 +79,9 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
-            Name = "rolepage";
+            Name = "Rolepage";
             Text = "Rolepage";
+            Load += Rolepage_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EventAttendanceChecker
 {
-    public partial class rolepage : Form
+    public partial class Rolepage : Form
     {
-        public rolepage()
+        public Rolepage()
         {
             InitializeComponent();
         }
@@ -28,6 +28,11 @@ namespace EventAttendanceChecker
         }
 
         private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Rolepage_Load(object sender, EventArgs e)
         {
 
         }
